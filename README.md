@@ -9,4 +9,28 @@ Today, the amount of public violence has increased dramatically. As much in high
 
 The method consists of extracting a set of frames belonging to the video, sending them to a pretrained network called VGG16, obtaining the output of one of its final layers and from these outputs train another network architecture with a type of special neurons called LSTM. These neurons have memory and are able to analyze the temporal information of the video, if at any time they detect violence, it will be classified as a violent video.
 
+## Prerequisites
+* [Python3](https://www.python.org/)
+* [opencv-python](https://pypi.python.org/pypi/opencv-python)
+* [numpy](http://www.numpy.org)
+* [matplotlib](https://matplotlib.org/users/installing.html)
+* [keras](https://pypi.org/project/Keras/)
+* [h5py](http://docs.h5py.org/en/stable/build.html)
+
+## How to use
+Make sure python3 and pip is installed. Then, install cv2 and numpy, matplotlib, keras and h5py.
+```bash
+# install opencv-python
+pip install cv2
+# install PyWavelets
+pip install numpy
+# install matplotlib
+python -m pip install -U matplotlib 
+# install keras
+pip install Keras
+# install h5py
+pip install h5py
+```
+
+
 
