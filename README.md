@@ -1,6 +1,8 @@
 # Violence-Detection-CNN-LSTM
 Violence Detection tutorial using pre-trained CNN and LSTM
 
+This is a tutorial to see a keras code architecture to train a violence video classifier and view the flowchart. To see a detailed explanation open de Jupyter Notebook (violence_detection.ypynb).
+
 ## Introduction
 
 Today, the amount of public violence has increased dramatically. As much in high schools as in the street. This has resulted in the ubiquitous use of surveillance cameras. This has helped the authorities to identify these events and take the necessary measures. But almost all systems today require the human-inspection of these videos to identify such events, which is virtually inefficient. It is therefore necessary to have such a practical system that can automatically monitor and identify the surveillance videos. The development of various deep learning techniques, thanks to the availability of large data sets and computational resources, has resulted in a historic change in the community of computer vision. Various techniques have been developed to address problems such as object detection, recognition, tracking, action recognition, legend generation, etc.
@@ -32,5 +34,9 @@ pip install Keras
 pip install h5py
 ```
 
+Let's train the violence classifier. Type on shell in project directory: 
 
+```bash
+python Violence_detection.py
+```
 
