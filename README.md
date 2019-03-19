@@ -37,6 +37,6 @@ pip install h5py
 Let's train the violence classifier. Type on shell in project directory: 
 
 ```bash
-python Violence_detection.py
+python Violence_Detection.py
 ```
 
